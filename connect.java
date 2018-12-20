@@ -14,9 +14,9 @@ public class connect {
     public static Statement stm;
     public static void main(String args[]){
         try {
-            String url ="jdbc:mysql://localhost/tutorial";
-            String user="root";
-            String pass="";
+            String url ="jdbc:mysql://localhost/from_login";
+            String user="admin";
+            String pass="123";
             Class.forName("com.mysql.jdbc.Driver");
             con =DriverManager.getConnection(url,user,pass);
             stm = con.createStatement();
